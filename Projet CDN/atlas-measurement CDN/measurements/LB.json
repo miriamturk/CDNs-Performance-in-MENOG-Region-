@@ -1,0 +1,176 @@
+{
+    "akamai": [
+        {
+            "host": "www.microsoft.com",
+            "is_success": true,
+            "measurement_id": [
+                24285725
+            ]
+        },
+        {
+            "host": "www.trivago.com",
+            "is_success": true,
+            "measurement_id": [
+                24285727
+            ]
+        },
+        {
+            "host": "www.tiktok.com",
+            "is_success": true,
+            "measurement_id": [
+                24285729
+            ]
+        }
+    ],
+    "amazonCloudfront": [
+        {
+            "host": "www.amazon.com",
+            "is_success": true,
+            "measurement_id": [
+                24285753
+            ]
+        },
+        {
+            "host": "www.gaia.com",
+            "is_success": true,
+            "measurement_id": [
+                24285755
+            ]
+        },
+        {
+            "host": "www.imdb.com",
+            "is_success": true,
+            "measurement_id": [
+                24285757
+            ]
+        }
+    ],
+    "azure": [
+        {
+            "host": "www.live.com",
+            "is_success": true,
+            "measurement_id": [
+                24285747
+            ]
+        },
+        {
+            "host": "www.bing.com",
+            "is_success": true,
+            "measurement_id": [
+                24285749
+            ]
+        },
+        {
+            "host": "www.msn.com",
+            "is_success": true,
+            "measurement_id": [
+                24285751
+            ]
+        }
+    ],
+    "cloudflare": [
+        {
+            "host": "www.researchgate.net",
+            "is_success": true,
+            "measurement_id": [
+                24285737
+            ]
+        },
+        {
+            "host": "www.9gag.com",
+            "is_success": true,
+            "measurement_id": [
+                24285739
+            ]
+        },
+        {
+            "host": "www.udemy.com",
+            "is_success": true,
+            "measurement_id": [
+                24285741
+            ]
+        }
+    ],
+    "facebookcdn": [
+        {
+            "host": "www.oculus.com",
+            "is_success": true,
+            "measurement_id": [
+                24285760
+            ]
+        },
+        {
+            "host": "www.instagram.com",
+            "is_success": true,
+            "measurement_id": [
+                24285762
+            ]
+        },
+        {
+            "host": "www.messenger.com",
+            "is_success": true,
+            "measurement_id": [
+                24285764
+            ]
+        }
+    ],
+    "fastly": [
+        {
+            "host": "www.reddit.com",
+            "is_success": true,
+            "measurement_id": [
+                24285731
+            ]
+        },
+        {
+            "host": "www.stackoverflow.com",
+            "is_success": true,
+            "measurement_id": [
+                24285733
+            ]
+        },
+        {
+            "host": "www.nytimes.com",
+            "is_success": true,
+            "measurement_id": [
+                24285735
+            ]
+        }
+    ],
+    "googleCloud": [
+        {
+            "host": "play.google.com",
+            "is_success": true,
+            "measurement_id": [
+                24285766
+            ]
+        },
+        {
+            "host": "www.youtube.com",
+            "is_success": false,
+            "reason": {
+                "error": {
+                    "code": 102,
+                    "detail": "There was a problem with your request",
+                    "errors": [
+                        {
+                            "detail": "We do not allow more than 25 concurrent measurements to the same target: www.youtube.com.",
+                            "source": {
+                                "pointer": ""
+                            }
+                        }
+                    ],
+                    "status": 400,
+                    "title": "Bad Request"
+                }
+            }
+        },
+        {
+            "host": "maps.google.com",
+            "is_success": true,
+            "measurement_id": [
+                24285770
+            ]
+        }
+    ]
+}

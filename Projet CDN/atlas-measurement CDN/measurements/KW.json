@@ -1,0 +1,163 @@
+{
+    "akamai": [
+        {
+            "host": "www.trivago.com",
+            "is_success": true,
+            "measurement_id": [
+                24285684
+            ]
+        },
+        {
+            "host": "www.microsoft.com",
+            "is_success": true,
+            "measurement_id": [
+                24285686
+            ]
+        },
+        {
+            "host": "www.tiktok.com",
+            "is_success": true,
+            "measurement_id": [
+                24285688
+            ]
+        }
+    ],
+    "amazonCloudfront": [
+        {
+            "host": "www.gaia.com",
+            "is_success": true,
+            "measurement_id": [
+                24285709
+            ]
+        },
+        {
+            "host": "www.amazon.com",
+            "is_success": true,
+            "measurement_id": [
+                24285711
+            ]
+        },
+        {
+            "host": "www.imdb.com",
+            "is_success": true,
+            "measurement_id": [
+                24285713
+            ]
+        }
+    ],
+    "azure": [
+        {
+            "host": "www.bing.com",
+            "is_success": true,
+            "measurement_id": [
+                24285702
+            ]
+        },
+        {
+            "host": "www.live.com",
+            "is_success": true,
+            "measurement_id": [
+                24285705
+            ]
+        },
+        {
+            "host": "www.msn.com",
+            "is_success": true,
+            "measurement_id": [
+                24285707
+            ]
+        }
+    ],
+    "cloudflare": [
+        {
+            "host": "www.udemy.com",
+            "is_success": true,
+            "measurement_id": [
+                24285696
+            ]
+        },
+        {
+            "host": "www.9gag.com",
+            "is_success": true,
+            "measurement_id": [
+                24285698
+            ]
+        },
+        {
+            "host": "www.researchgate.net",
+            "is_success": true,
+            "measurement_id": [
+                24285700
+            ]
+        }
+    ],
+    "facebookcdn": [
+        {
+            "host": "www.oculus.com",
+            "is_success": true,
+            "measurement_id": [
+                24285715
+            ]
+        },
+        {
+            "host": "www.messenger.com",
+            "is_success": true,
+            "measurement_id": [
+                24285718
+            ]
+        },
+        {
+            "host": "www.instagram.com",
+            "is_success": true,
+            "measurement_id": [
+                24285720
+            ]
+        }
+    ],
+    "fastly": [
+        {
+            "host": "www.stackoverflow.com",
+            "is_success": true,
+            "measurement_id": [
+                24285690
+            ]
+        },
+        {
+            "host": "www.nytimes.com",
+            "is_success": true,
+            "measurement_id": [
+                24285692
+            ]
+        },
+        {
+            "host": "www.reddit.com",
+            "is_success": true,
+            "measurement_id": [
+                24285694
+            ]
+        }
+    ],
+    "googleCloud": [
+        {
+            "host": "maps.google.com",
+            "is_success": true,
+            "measurement_id": [
+                24285722
+            ]
+        },
+        {
+            "host": "www.youtube.com",
+            "is_success": true,
+            "measurement_id": [
+                24285724
+            ]
+        },
+        {
+            "host": "play.google.com",
+            "is_success": true,
+            "measurement_id": [
+                24285726
+            ]
+        }
+    ]
+}

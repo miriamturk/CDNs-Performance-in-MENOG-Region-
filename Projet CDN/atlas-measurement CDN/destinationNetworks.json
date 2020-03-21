@@ -1,0 +1,79 @@
+{
+  "akamai": [
+    {
+      "host": "www.microsoft.com"
+    },
+    {
+      "host": "www.trivago.com"
+    },
+    {
+      "host": "www.tiktok.com"
+    }
+  ],
+  "fastly": [
+    {
+      "host": "www.stackoverflow.com"
+    },
+    {
+      "host": "www.reddit.com"
+    },
+    {
+      "host": "www.nytimes.com"
+    }
+  ],
+  "cloudflare": [
+    {
+      "host": "www.udemy.com"
+    },
+    {
+      "host": "www.9gag.com"
+    },
+    {
+      "host": "www.researchgate.net"
+    }
+  ],
+  "azure": [
+    {
+      "host": "www.bing.com"
+    },
+    {
+      "host": "www.live.com"
+    },
+    {
+      "host": "www.msn.com"
+    }
+  ],
+  "amazonCloudfront": [
+    {
+      "host": "www.amazon.com"
+    },
+    {
+      "host": "www.gaia.com"
+    },
+    {
+      "host": "www.imdb.com"
+    }
+  ],
+  "facebookcdn": [
+    {
+      "host": "www.oculus.com"
+    },
+    {
+      "host": "www.instagram.com"
+    },
+    {
+      "host": "www.messenger.com"
+    }
+  ],
+  "googleCloud": [
+    {
+      "host": "www.youtube.com"
+    },
+    {
+      "host": "maps.google.com"
+    },
+    {
+      "host": "play.google.com"
+    }
+  ]
+}
