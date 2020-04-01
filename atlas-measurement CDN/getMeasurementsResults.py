@@ -21,7 +21,7 @@ for filepath in glob.iglob('measurements/*.json'):
                     kwargs = {"msm_id": measurement}
                     (is_success, results) = AtlasResultsRequest(**kwargs).create()
                     try:
-                        with open("measurements/data/{}/{}/{}.json".format(file_name, k, measurement), "w") as f:
+                        with open("measurements/data/{}/{}/{}.json".format(file_name, k, elt['host']), "w") as f:
                             json.dump(results, f, indent=4, sort_keys=True)
                     except Exception as e:
                         failed_measurements.append(measurement)
