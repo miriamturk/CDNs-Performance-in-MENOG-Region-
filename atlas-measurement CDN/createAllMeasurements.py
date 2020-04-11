@@ -19,8 +19,9 @@ tag_list = ["test-code-esib"]
 with open('destinationNetworks.json', 'r') as f:
     networks = json.load(f)
 
-with open('countries1.json', 'r') as f:
+with open('countries.json', 'r') as f:
     countries = json.load(f)
+    countries=countries["countries1"]
 
 for source_country, source_country_code in countries.items():
     measurements = dict()
