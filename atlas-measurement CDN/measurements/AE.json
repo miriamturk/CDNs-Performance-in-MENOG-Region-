@@ -153,24 +153,11 @@
             ]
         },
         {
-            "host": "www.youtube.com",
-            "is_success": false,
-            "reason": {
-                "error": {
-                    "code": 102,
-                    "detail": "There was a problem with your request",
-                    "errors": [
-                        {
-                            "detail": "We do not allow more than 25 concurrent measurements to the same target: www.youtube.com.",
-                            "source": {
-                                "pointer": ""
-                            }
-                        }
-                    ],
-                    "status": 400,
-                    "title": "Bad Request"
-                }
-            }
+	          "host": "www.youtube.com",
+            "is_success": true,
+            "measurement_id": [
+                24630399
+            ]
         }
     ]
 }
