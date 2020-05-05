@@ -1,9 +1,9 @@
 import json
 import os
 
-directory = "/Users/mariannejbeyli/Desktop/data/"
+directory = "..../menog-rtt-cdn-measure/measurements/data"
 
-with open("asn_prefix/asn_prefix.json","r") as file:
+with open(".../menog-rtt-cdn-measure/asn_prefix.json","r") as file:
     probes = json.load(file)
 
 

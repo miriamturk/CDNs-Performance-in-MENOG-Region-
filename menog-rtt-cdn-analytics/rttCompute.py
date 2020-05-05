@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import copy
 
-directory = "C:/Users/Mariam Al-Turk/Desktop/2eme Telecom/Sem4/Ecosystemes/Ptojet_CDNs in MENOG Region/CDNs-Performance-in-MENOG-Region-/menog-rtt-cdn-measure/measurements/data"
+directory =".../menog-rtt-cdn-measure/measurements/data"
 
 def getRTT(f):
     results = []

@@ -1,5 +1,6 @@
 import pandas as pd
 import seaborn as sns; sns.set()
+import seaborn as sb; sb.set()
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
@@ -46,6 +47,5 @@ for country in countries:
 data = weighedAvgRTT(directory)
 ax = sb.clustermap(data, method="single", figsize=(6,6), cmap="YlGnBu")
 ax.ax_row_dendrogram.set_visible(False)
-plt.savefig('graphs/clustermap.png')
-plt.show()
+plt.savefig('graphs/clustermap/clustermap.png')
 
