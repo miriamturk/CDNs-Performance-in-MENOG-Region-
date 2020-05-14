@@ -3,7 +3,7 @@
 Several studies present analyzes of the performance of CDNs on an international scale. CDNs (Content Delivery Network) are content delivery networks that not only provide a faster experience but also help prevent sites from crashing during heavy congestion or even increased traffic. In our project, we seek to do this performance study on a more limited scope, in the Middle East region, in the group of Middle East Network Operators Group (MENOG).
 
 
-CDNs Concept |  Middle East Reagion
+CDNs Concept |  Middle East Region
 :-------------------------:|:-------------------------:
 ![](https://www.themexpert.com/images/easyblog_articles/273/b2ap3_large_cdn_cover.png)  |  ![](https://lh3.googleusercontent.com/proxy/LaPohduRZtqSvCdHR-YbcbiUSRbS-8FmlioVn8sKg4XzpjEXgypD9zQAoC8blmqD8wNXuagkysbLoFKUYuJGxDeZy_v5ZKFtr7Ffv_dI6YfmFYbF2IFFLfqS1K0jK_-OmDHlP8KSAHA)
 
