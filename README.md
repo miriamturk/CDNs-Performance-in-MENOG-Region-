@@ -11,7 +11,7 @@ Nowadays, many companies seek to guarantee a consistent experience for all their
 
 To know more about our results, how we did our code and visualizations:
 
- - an easy README is given in the *"menog-rtt-cdn-measure"* folder for you to follow
+ - An easy README is given in the *"menog-rtt-cdn-measure"* folder for you to follow
 
  - Results are visualized in the *"menog-rtt-cdn-analytics"* folder as:
 
@@ -20,6 +20,12 @@ To know more about our results, how we did our code and visualizations:
     - BoxPlot Figures
 
     - CDF Figures
+
+## Plot Codes
+
+- rttCompute : All RTT results of each country and each CDN are computed and saved in a csv file
+- weighedmeanRTT : Code to compute weighed mean RTT for each CDN in each country
+- rttPlot : Code to visualize and save all graphs and figures for the analysis
 
 __N.B.__: If you want to execute the RTT Computation and Figures don't forget to add the right directory where this project is cloned.
 
