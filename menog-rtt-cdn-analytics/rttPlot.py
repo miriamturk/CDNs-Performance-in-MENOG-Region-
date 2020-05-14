@@ -14,32 +14,21 @@ df = pd.read_csv(d)
 
 #BOXPLOT
 
-def BoxPlot(country,data):
+for country in countries:
     fig = plt.figure(figsize=(9,7))
     d1 = "graphs/BoxPlot/" + country + ".png"
+    groupbycountry = 'country == "' + country + '"'
+    df1=df.query(groupbycountry)
     sns.boxplot(y='values', x = 'cdn', data=df1)
     plt.ylabel ("RTT values in milliseconds", size =12)
     plt.xlabel("CDN", size=12)
     plt.title("BoxPlot for latency measures in " + country)
     plt.savefig(d1)
 
-for country in countries:
-    groupbycountry = 'country == "' + country + '"'
-    df1=df.query(groupbycountry)
-    BoxPlot(country,df1)
-
-##d1 = "graphs/BoxPlot/" + "TR" + ".png"
-##groupbycountry = 'country == "' + "TR" + '"'
-##df1=df.query(groupbycountry)
-##sns.boxplot(y='values', x = 'cdn', data=df1)
-##plt.ylabel ("RTT values in milliseconds", size =10)
-##plt.xlabel("CDN", size=10)
-##plt.title("BoxPlot for latency measures in " + "TR")
-##plt.savefig(d1)
-
 
 #CDF PLOT
 for country in countries:
+    fig = plt.figure(figsize=(9,7))
     for cdn in CDN:
         n_bins = 20
         groupbycountry = 'country == "' + country + '"'
