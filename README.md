@@ -3,6 +3,8 @@ Team Members:
 Michel Khalaf  
 Miriam Turk  
 Yara Yammine  
+Mariella El Jreidy  
+
 
 # CDNs Performance in MENOG Region
 
